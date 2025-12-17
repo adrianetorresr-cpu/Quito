@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6cba7f1a47cf4a825d3462f7b078344b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6cba7f1a47cf4a825d3462f7b078344b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6cba7f1a47cf4a825d3462f7b078344b = L.map(
+                "map_6cba7f1a47cf4a825d3462f7b078344b",
+                {
+                    center: [-0.18, -78.48],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_53bf5cda08ea52ff3812c7ef84189efd = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_53bf5cda08ea52ff3812c7ef84189efd.addTo(map_6cba7f1a47cf4a825d3462f7b078344b);
+        
+    
+            var marker_8f0844301fbcb5b364faad5914924108 = L.marker(
+                [-0.11502, -78.39356],
+                {
+}
+            ).addTo(map_6cba7f1a47cf4a825d3462f7b078344b);
+        
+    
+            var icon_1e68ad33622becf53db5447ebdaacdb0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "dumpster",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91eb077e7cc907878504ab31ae467961 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_193fd7830c1fe8259121fe6d9f58340d = $(`<div id="html_193fd7830c1fe8259121fe6d9f58340d" style="width: 100.0%; height: 100.0%;">     <h4>Escombrera Oyacoto</h4>     <b>Tipo:</b> Escombrera autorizada<br>     </div>`)[0];
+                popup_91eb077e7cc907878504ab31ae467961.setContent(html_193fd7830c1fe8259121fe6d9f58340d);
+            
+        
+
+        marker_8f0844301fbcb5b364faad5914924108.bindPopup(popup_91eb077e7cc907878504ab31ae467961)
+        ;
+
+        
+    
+    
+                marker_8f0844301fbcb5b364faad5914924108.setIcon(icon_1e68ad33622becf53db5447ebdaacdb0);
+            
+    
+            var marker_1db8ffc1ec3f97c809af0895fb8fac5a = L.marker(
+                [-0.33141, -78.51742],
+                {
+}
+            ).addTo(map_6cba7f1a47cf4a825d3462f7b078344b);
+        
+    
+            var icon_caee8f90eb94965282fe40d497dc243a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "dumpster",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ca423f4cb55e55886e71279baab9fa55 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e9ca2c2d3c00a01347c157d840b5d859 = $(`<div id="html_e9ca2c2d3c00a01347c157d840b5d859" style="width: 100.0%; height: 100.0%;">     <h4>Escombrera El Troje</h4>     <b>Tipo:</b> Escombrera autorizada<br>     </div>`)[0];
+                popup_ca423f4cb55e55886e71279baab9fa55.setContent(html_e9ca2c2d3c00a01347c157d840b5d859);
+            
+        
+
+        marker_1db8ffc1ec3f97c809af0895fb8fac5a.bindPopup(popup_ca423f4cb55e55886e71279baab9fa55)
+        ;
+
+        
+    
+    
+                marker_1db8ffc1ec3f97c809af0895fb8fac5a.setIcon(icon_caee8f90eb94965282fe40d497dc243a);
+            
+    
+            var marker_cb2cc485f7c3cf5333ecf99a4de8b6dc = L.marker(
+                [-0.37405, -78.37],
+                {
+}
+            ).addTo(map_6cba7f1a47cf4a825d3462f7b078344b);
+        
+    
+            var icon_b1d114dd7eaece14e49af3323733bbe9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "dumpster",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_48066dd92bfedbd6495a938a9be14fe4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_836a9cb09d619d24de506ad12ce197f1 = $(`<div id="html_836a9cb09d619d24de506ad12ce197f1" style="width: 100.0%; height: 100.0%;">     <h4>Escombrera E35</h4>     <b>Tipo:</b> Escombrera autorizada<br>     </div>`)[0];
+                popup_48066dd92bfedbd6495a938a9be14fe4.setContent(html_836a9cb09d619d24de506ad12ce197f1);
+            
+        
+
+        marker_cb2cc485f7c3cf5333ecf99a4de8b6dc.bindPopup(popup_48066dd92bfedbd6495a938a9be14fe4)
+        ;
+
+        
+    
+    
+                marker_cb2cc485f7c3cf5333ecf99a4de8b6dc.setIcon(icon_b1d114dd7eaece14e49af3323733bbe9);
+            
+    
+            var marker_0c5ea9de2d10fccfd1cff886bdb521ad = L.marker(
+                [0.04478, -78.45256],
+                {
+}
+            ).addTo(map_6cba7f1a47cf4a825d3462f7b078344b);
+        
+    
+            var icon_e751a8fe117bb1eb446e3bcccd04ad64 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "dumpster",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f4adbd0c82432aa289042c1ea65554c2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_57887573fd32be87e7723b237981f4b5 = $(`<div id="html_57887573fd32be87e7723b237981f4b5" style="width: 100.0%; height: 100.0%;">     <h4>Escombrera San Antonio</h4>     <b>Tipo:</b> Escombrera autorizada<br>     </div>`)[0];
+                popup_f4adbd0c82432aa289042c1ea65554c2.setContent(html_57887573fd32be87e7723b237981f4b5);
+            
+        
+
+        marker_0c5ea9de2d10fccfd1cff886bdb521ad.bindPopup(popup_f4adbd0c82432aa289042c1ea65554c2)
+        ;
+
+        
+    
+    
+                marker_0c5ea9de2d10fccfd1cff886bdb521ad.setIcon(icon_e751a8fe117bb1eb446e3bcccd04ad64);
+            
+    
+            var marker_334f7a0a9943cdd969902aad1b8671ca = L.marker(
+                [-0.17814, -78.50381],
+                {
+}
+            ).addTo(map_6cba7f1a47cf4a825d3462f7b078344b);
+        
+    
+            var icon_d2928b8a258695fe22027dc39a5d0eb0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "recycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_691747c6ac0f7a1e32204d05aa36646f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_85ac3d6fde644ae715c691bbf2d26f3c = $(`<div id="html_85ac3d6fde644ae715c691bbf2d26f3c" style="width: 100.0%; height: 100.0%;">     <h4>EMASEO – La Occidental</h4>     <b>Evento:</b> Domingo de Tereques<br>     </div>`)[0];
+                popup_691747c6ac0f7a1e32204d05aa36646f.setContent(html_85ac3d6fde644ae715c691bbf2d26f3c);
+            
+        
+
+        marker_334f7a0a9943cdd969902aad1b8671ca.bindPopup(popup_691747c6ac0f7a1e32204d05aa36646f)
+        ;
+
+        
+    
+    
+                marker_334f7a0a9943cdd969902aad1b8671ca.setIcon(icon_d2928b8a258695fe22027dc39a5d0eb0);
+            
+    
+            var marker_a6479cace13013db657c2b44dfc9e447 = L.marker(
+                [-0.25733, -78.50221],
+                {
+}
+            ).addTo(map_6cba7f1a47cf4a825d3462f7b078344b);
+        
+    
+            var icon_9130c26afb80beed1b717cc794147be5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "recycle",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb8bd893d2e183c0ec85107b9598b86c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1dc6dd3a96a9faab77eff02f27b68d87 = $(`<div id="html_1dc6dd3a96a9faab77eff02f27b68d87" style="width: 100.0%; height: 100.0%;">     <h4>EMASEO – La Forestal</h4>     <b>Evento:</b> Domingo de Tereques<br>     </div>`)[0];
+                popup_fb8bd893d2e183c0ec85107b9598b86c.setContent(html_1dc6dd3a96a9faab77eff02f27b68d87);
+            
+        
+
+        marker_a6479cace13013db657c2b44dfc9e447.bindPopup(popup_fb8bd893d2e183c0ec85107b9598b86c)
+        ;
+
+        
+    
+    
+                marker_a6479cace13013db657c2b44dfc9e447.setIcon(icon_9130c26afb80beed1b717cc794147be5);
+            
+</script>
+</html>

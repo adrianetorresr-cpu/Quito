@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_615f014a102d933ce7040bc382efcb39 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_615f014a102d933ce7040bc382efcb39" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_615f014a102d933ce7040bc382efcb39 = L.map(
+                "map_615f014a102d933ce7040bc382efcb39",
+                {
+                    center: [-0.18, -78.48],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_61b3bf38e13ef47223e0c3ee59e2e5d9 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_61b3bf38e13ef47223e0c3ee59e2e5d9.addTo(map_615f014a102d933ce7040bc382efcb39);
+        
+    
+            var marker_ee5d0adea5b54dcdbd125d15a87ee423 = L.marker(
+                [-0.28036, -78.54124],
+                {
+}
+            ).addTo(map_615f014a102d933ce7040bc382efcb39);
+        
+    
+            var icon_182d1422e17b2d691c90383963fb33af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "radiation",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6578329b2b8ece9c48dd22983ba99f20 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_abbf415bb5d4a7eaf22f376a87fb838d = $(`<div id="html_abbf415bb5d4a7eaf22f376a87fb838d" style="width: 100.0%; height: 100.0%;"> <h4>Turubamba Bajo</h4>  <img src="imagenes/turubamba"      style="width:250px; border-radius:6px;"><br><br>  <a href="https://www.teleamazonas.com/alerta-quebradas-quito-lluvias-abril/" target="_blank"> Noticia relacionada </a> </div>`)[0];
+                popup_6578329b2b8ece9c48dd22983ba99f20.setContent(html_abbf415bb5d4a7eaf22f376a87fb838d);
+            
+        
+
+        marker_ee5d0adea5b54dcdbd125d15a87ee423.bindPopup(popup_6578329b2b8ece9c48dd22983ba99f20)
+        ;
+
+        
+    
+    
+                marker_ee5d0adea5b54dcdbd125d15a87ee423.setIcon(icon_182d1422e17b2d691c90383963fb33af);
+            
+    
+            var marker_15bef0645e6e628399b6e48b05944daf = L.marker(
+                [-0.27686, -78.52676],
+                {
+}
+            ).addTo(map_615f014a102d933ce7040bc382efcb39);
+        
+    
+            var icon_b44d362642888261a942d47b28098b02 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "radiation",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dee428074c848a16f7d94e1cba3cf5be = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_341b45a9bee5b096ca6eadf3332ab34b = $(`<div id="html_341b45a9bee5b096ca6eadf3332ab34b" style="width: 100.0%; height: 100.0%;"> <h4>Tambillo</h4>  <img src="imagenes/tambillo"      style="width:250px; border-radius:6px;"><br><br>  <a href="https://www.elcomercio.com/actualidad/quito/quebrada-desborda-quito-fuertes-lluvias-efectos-alcantarillado/" target="_blank"> Noticia relacionada </a> </div>`)[0];
+                popup_dee428074c848a16f7d94e1cba3cf5be.setContent(html_341b45a9bee5b096ca6eadf3332ab34b);
+            
+        
+
+        marker_15bef0645e6e628399b6e48b05944daf.bindPopup(popup_dee428074c848a16f7d94e1cba3cf5be)
+        ;
+
+        
+    
+    
+                marker_15bef0645e6e628399b6e48b05944daf.setIcon(icon_b44d362642888261a942d47b28098b02);
+            
+    
+            var marker_bebb95f2fd22e3531fbe194c6e38b301 = L.marker(
+                [-0.19899, -78.51252],
+                {
+}
+            ).addTo(map_615f014a102d933ce7040bc382efcb39);
+        
+    
+            var icon_318a1101271470528938649e6dbfc688 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "radiation",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b760bbb2f17ef5f9bd90cab96be77594 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_84b3dd4232ed0cfbb07b369ec73b82c2 = $(`<div id="html_84b3dd4232ed0cfbb07b369ec73b82c2" style="width: 100.0%; height: 100.0%;"> <h4>Armero</h4>  <img src="imagenes/armero"      style="width:250px; border-radius:6px;"><br><br>  <a href="https://www.elcomercio.com/actualidad/quito/quebradas-vulnerables-danos-aluvion-lluvias/" target="_blank"> Noticia relacionada </a> </div>`)[0];
+                popup_b760bbb2f17ef5f9bd90cab96be77594.setContent(html_84b3dd4232ed0cfbb07b369ec73b82c2);
+            
+        
+
+        marker_bebb95f2fd22e3531fbe194c6e38b301.bindPopup(popup_b760bbb2f17ef5f9bd90cab96be77594)
+        ;
+
+        
+    
+    
+                marker_bebb95f2fd22e3531fbe194c6e38b301.setIcon(icon_318a1101271470528938649e6dbfc688);
+            
+    
+            var marker_bba81dbbbef1b4868ac8f44004cafe28 = L.marker(
+                [-0.1379, -78.50857],
+                {
+}
+            ).addTo(map_615f014a102d933ce7040bc382efcb39);
+        
+    
+            var icon_4ddfb55cd458454d15f20cbb8cad336d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "radiation",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8835c3f6cedd6fc9d3fe1b7623d923ea = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_671f3ebfca4f961d1afc9cac3a487210 = $(`<div id="html_671f3ebfca4f961d1afc9cac3a487210" style="width: 100.0%; height: 100.0%;"> <h4>La Pulida</h4>  <img src="imagenes/lapulida.png"      style="width:250px; border-radius:6px;"><br><br>  <a href="https://www.metroecuador.com.ec/noticias/2023/04/23/quito-colchones-llantas-escombros-y-basura-tapono-las-estructuras-de-la-quebrada-que-se-desbordo-en-la-pulida/" target="_blank"> Noticia relacionada </a> </div>`)[0];
+                popup_8835c3f6cedd6fc9d3fe1b7623d923ea.setContent(html_671f3ebfca4f961d1afc9cac3a487210);
+            
+        
+
+        marker_bba81dbbbef1b4868ac8f44004cafe28.bindPopup(popup_8835c3f6cedd6fc9d3fe1b7623d923ea)
+        ;
+
+        
+    
+    
+                marker_bba81dbbbef1b4868ac8f44004cafe28.setIcon(icon_4ddfb55cd458454d15f20cbb8cad336d);
+            
+    
+            var marker_b40696f55f62d817bb6e54e520843350 = L.marker(
+                [-0.09868, -78.45516],
+                {
+}
+            ).addTo(map_615f014a102d933ce7040bc382efcb39);
+        
+    
+            var icon_f3c39fc73b6cd8c32fefa3448bd13871 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "radiation",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4344b69834cddad7ff80fc0e77fefbf5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8620d7859e619383bd58c364d610566c = $(`<div id="html_8620d7859e619383bd58c364d610566c" style="width: 100.0%; height: 100.0%;"> <h4>Carretas</h4>  <img src="imagenes/carretas"      style="width:250px; border-radius:6px;"><br><br>  <a href="https://www.elcomercio.com/actualidad/quito/casas-riesgo-erosion-quebrada-carretas/" target="_blank"> Noticia relacionada </a> </div>`)[0];
+                popup_4344b69834cddad7ff80fc0e77fefbf5.setContent(html_8620d7859e619383bd58c364d610566c);
+            
+        
+
+        marker_b40696f55f62d817bb6e54e520843350.bindPopup(popup_4344b69834cddad7ff80fc0e77fefbf5)
+        ;
+
+        
+    
+    
+                marker_b40696f55f62d817bb6e54e520843350.setIcon(icon_f3c39fc73b6cd8c32fefa3448bd13871);
+            
+    
+            var marker_c42953b6f309c7dbbab2087dfa21af4a = L.marker(
+                [-0.08714, -78.5057],
+                {
+}
+            ).addTo(map_615f014a102d933ce7040bc382efcb39);
+        
+    
+            var icon_ce7e41fb531ac9c90de23854219815d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "radiation",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e2a0ae6989d33561cb88abe832360ba7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_129f10b6e9911b4ad87ebf5135623134 = $(`<div id="html_129f10b6e9911b4ad87ebf5135623134" style="width: 100.0%; height: 100.0%;"> <h4>La Roldós</h4>  <img src="imagenes/roldos"      style="width:250px; border-radius:6px;"><br><br>  <a href="https://www.expreso.ec/quito/quebradas-capital-son-focos-permanentes-suciedad-145975.html" target="_blank"> Noticia relacionada </a> </div>`)[0];
+                popup_e2a0ae6989d33561cb88abe832360ba7.setContent(html_129f10b6e9911b4ad87ebf5135623134);
+            
+        
+
+        marker_c42953b6f309c7dbbab2087dfa21af4a.bindPopup(popup_e2a0ae6989d33561cb88abe832360ba7)
+        ;
+
+        
+    
+    
+                marker_c42953b6f309c7dbbab2087dfa21af4a.setIcon(icon_ce7e41fb531ac9c90de23854219815d8);
+            
+    
+            var marker_37c83a85501e2adb1ccbaa4a14687646 = L.marker(
+                [-0.08864, -78.45383],
+                {
+}
+            ).addTo(map_615f014a102d933ce7040bc382efcb39);
+        
+    
+            var icon_8e6af353978ba043e1655b63a2c27f90 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "radiation",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78a336f6cefe35711a13db236c2e4e78 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f388d87df1f9d1ae28a5c7d3621aaa0e = $(`<div id="html_f388d87df1f9d1ae28a5c7d3621aaa0e" style="width: 100.0%; height: 100.0%;"> <h4>Carapungo</h4>  <img src="imagenes/carapungo"      style="width:250px; border-radius:6px;"><br><br>  <a href="https://www.ecuavisa.com/noticias/quito/quito-quebradas-carapungo-san-antonio-botaderos-contaminacion-BH9018322" target="_blank"> Noticia relacionada </a> </div>`)[0];
+                popup_78a336f6cefe35711a13db236c2e4e78.setContent(html_f388d87df1f9d1ae28a5c7d3621aaa0e);
+            
+        
+
+        marker_37c83a85501e2adb1ccbaa4a14687646.bindPopup(popup_78a336f6cefe35711a13db236c2e4e78)
+        ;
+
+        
+    
+    
+                marker_37c83a85501e2adb1ccbaa4a14687646.setIcon(icon_8e6af353978ba043e1655b63a2c27f90);
+            
+</script>
+</html>
