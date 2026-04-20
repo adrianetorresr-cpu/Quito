@@ -4,7 +4,7 @@ En este repositorio se encuentran diferentes mapas interactivos en html realizad
 recopilan datos geoespaciales y otros como los del Censo de Ecuador 2022
 
 Cada mapa representa un analisis diferente de la problematica del manejo de residuos en Quito y la contaminación
-del rio Machangara los cuales  ueron fundamentales para llegar a conclusiones sobre una historia de datos sobre
+del rio Machangara los cuales fueron fundamentales para llegar a conclusiones sobre una historia de datos sobre
 el rio Machangara en base a estos temas.
 
 Más información sobre este proyecto será actualizada pronto. Esta es una idea muy general de lo que se realizó y el
